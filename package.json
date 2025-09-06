@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "@types/fabric": "^5.3.10",
+    "fabric": "^6.7.1",
+    "framer-motion": "^12.23.12",
+    "openai": "^5.12.2"
+  }
+}
