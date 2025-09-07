@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#0e1426"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="36%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="180" fill="url(#glow)" filter="url(#blur)"/>
+  <g fill="#E6F6FF">
+    <rect x="195" y="145" width="56" height="250" rx="28" />
+    <rect x="195" y="339" width="150" height="56" rx="28" />
+  </g>
+  <linearGradient id="tintV" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#2491FF" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#2491FF" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="tintH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#2491FF" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#2491FF" stop-opacity="0"/>
+  </linearGradient>
+  <rect x="195" y="145" width="56" height="250" rx="28" fill="url(#tintV)"/>
+  <rect x="195" y="339" width="150" height="56" rx="28" fill="url(#tintH)"/>
+</svg>

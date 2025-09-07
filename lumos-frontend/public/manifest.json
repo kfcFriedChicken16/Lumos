@@ -1,0 +1,26 @@
+{
+  "id": "/app/",
+  "name": "Lumos - Your AI Student Companion",
+  "short_name": "Lumos",
+  "description": "Mental health support and academic guidance for students",
+  "start_url": "/app/?source=pwa",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-256.png", "sizes": "256x256", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Quick Check-in", "short_name": "Check-in", "url": "/app/care?shortcut=checkin" },
+    { "name": "3-min Breathe", "short_name": "Breathe", "url": "/app/care?shortcut=breathe" },
+    { "name": "Start Focus 20", "short_name": "Focus 20", "url": "/app/study?shortcut=focus20" }
+  ],
+  "categories": ["education", "health", "productivity"],
+  "prefer_related_applications": false,
+  "lang": "en",
+  "dir": "ltr"
+}

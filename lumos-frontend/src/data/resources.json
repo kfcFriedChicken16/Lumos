@@ -1,0 +1,218 @@
+{
+  "subjects": {
+    "mathematics": {
+      "name": "Mathematics",
+      "icon": "📐",
+      "color": "from-blue-500 to-cyan-500",
+      "description": "Master the language of numbers, patterns, and logic",
+      "topics": {
+        "algebra": {
+          "name": "Algebra",
+          "description": "Equations, functions, and mathematical relationships",
+          "videos": [
+            {
+              "title": "Algebra Basics: What Is Algebra? - Math Antics",
+              "url": "https://www.youtube.com/watch?v=NybHckSEQBI",
+              "duration": "12:07",
+              "difficulty": "beginner",
+              "source": "Math Antics",
+              "description": "Perfect introduction to algebra concepts"
+            },
+            {
+              "title": "Solving Linear Equations - Khan Academy",
+              "url": "https://www.youtube.com/watch?v=7Uos1ED3KHI",
+              "duration": "8:45",
+              "difficulty": "beginner",
+              "source": "Khan Academy",
+              "description": "Step-by-step guide to solving linear equations"
+            },
+            {
+              "title": "Quadratic Equations - 3Blue1Brown",
+              "url": "https://www.youtube.com/watch?v=MHXO86wKeDY",
+              "duration": "15:32",
+              "difficulty": "intermediate",
+              "source": "3Blue1Brown",
+              "description": "Visual explanation of quadratic equations"
+            }
+          ]
+        },
+        "calculus": {
+          "name": "Calculus",
+          "description": "Rates of change, limits, and infinite processes",
+          "videos": [
+            {
+              "title": "Calculus Made Easy - 3Blue1Brown",
+              "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+              "duration": "17:05",
+              "difficulty": "beginner",
+              "source": "3Blue1Brown",
+              "description": "Beautiful introduction to calculus concepts"
+            },
+            {
+              "title": "Derivatives - Khan Academy",
+              "url": "https://www.youtube.com/watch?v=ANyVpMS3HL4",
+              "duration": "9:26",
+              "difficulty": "intermediate",
+              "source": "Khan Academy",
+              "description": "Understanding derivatives and their applications"
+            }
+          ]
+        },
+        "geometry": {
+          "name": "Geometry",
+          "description": "Shapes, spaces, and spatial relationships",
+          "videos": [
+            {
+              "title": "Geometry Introduction - Math Antics",
+              "url": "https://www.youtube.com/watch?v=302eJ3TzJQc",
+              "duration": "10:13",
+              "difficulty": "beginner",
+              "source": "Math Antics",
+              "description": "Basic geometric concepts and terminology"
+            },
+            {
+              "title": "Pythagorean Theorem - Numberphile",
+              "url": "https://www.youtube.com/watch?v=YompsDlEdtc",
+              "duration": "11:14",
+              "difficulty": "intermediate",
+              "source": "Numberphile",
+              "description": "Fascinating proof of the Pythagorean theorem"
+            }
+          ]
+        }
+      }
+    },
+    "science": {
+      "name": "Science",
+      "icon": "🔬",
+      "color": "from-green-500 to-emerald-500",
+      "description": "Explore the natural world through observation and experimentation",
+      "topics": {
+        "physics": {
+          "name": "Physics",
+          "description": "Matter, energy, and the fundamental forces of nature",
+          "videos": [
+            {
+              "title": "Physics - What is Physics? - The Organic Chemistry Tutor",
+              "url": "https://www.youtube.com/watch?v=GmSXLk7RGlk",
+              "duration": "11:24",
+              "difficulty": "beginner",
+              "source": "The Organic Chemistry Tutor",
+              "description": "Introduction to physics and its branches"
+            },
+            {
+              "title": "Newton's Laws of Motion - Crash Course",
+              "url": "https://www.youtube.com/watch?v=CQYELiTtUs8",
+              "duration": "10:40",
+              "difficulty": "intermediate",
+              "source": "Crash Course",
+              "description": "Understanding motion and forces"
+            }
+          ]
+        },
+        "chemistry": {
+          "name": "Chemistry",
+          "description": "Atoms, molecules, and chemical reactions",
+          "videos": [
+            {
+              "title": "Introduction to Chemistry - Khan Academy",
+              "url": "https://www.youtube.com/watch?v=7DjsD7Hcd9U",
+              "duration": "12:15",
+              "difficulty": "beginner",
+              "source": "Khan Academy",
+              "description": "Basic chemistry concepts and atomic structure"
+            }
+          ]
+        }
+      }
+    },
+    "english": {
+      "name": "English",
+      "icon": "📚",
+      "color": "from-purple-500 to-pink-500",
+      "description": "Literature, Grammar, Writing, Reading",
+      "topics": {
+        "grammar": {
+          "name": "Grammar",
+          "description": "Parts of speech, sentence structure, and language rules",
+          "videos": [
+            {
+              "title": "English Grammar Basics - Khan Academy",
+              "url": "https://www.youtube.com/watch?v=8WX2IMNh_As",
+              "duration": "14:22",
+              "difficulty": "beginner",
+              "source": "Khan Academy",
+              "description": "Introduction to English grammar fundamentals"
+            }
+          ]
+        }
+      }
+    },
+    "history": {
+      "name": "History",
+      "icon": "🏛️",
+      "color": "from-orange-500 to-red-500",
+      "description": "World History, Geography, Social Studies",
+      "topics": {
+        "world-history": {
+          "name": "World History",
+          "description": "Major events and civilizations throughout time",
+          "videos": [
+            {
+              "title": "Ancient Civilizations - Crash Course",
+              "url": "https://www.youtube.com/watch?v=Yocja_N5s1I",
+              "duration": "11:45",
+              "difficulty": "beginner",
+              "source": "Crash Course",
+              "description": "Overview of ancient civilizations"
+            }
+          ]
+        }
+      }
+    },
+    "computer-science": {
+      "name": "Computer Science",
+      "icon": "💻",
+      "color": "from-indigo-500 to-purple-500",
+      "description": "Programming, Web Development, Data Science",
+      "topics": {
+        "programming": {
+          "name": "Programming",
+          "description": "Coding fundamentals and software development",
+          "videos": [
+            {
+              "title": "Programming for Beginners - CS50",
+              "url": "https://www.youtube.com/watch?v=8mAITcNt710",
+              "duration": "2:13:22",
+              "difficulty": "beginner",
+              "source": "CS50",
+              "description": "Harvard's famous introduction to programming"
+            }
+          ]
+        }
+      }
+    },
+    "languages": {
+      "name": "Languages",
+      "icon": "🌍",
+      "color": "from-teal-500 to-cyan-500",
+      "description": "Spanish, French, German, Mandarin",
+      "topics": {
+        "spanish": {
+          "name": "Spanish",
+          "description": "Learn Spanish vocabulary and grammar",
+          "videos": [
+            {
+              "title": "Spanish for Beginners - Duolingo",
+              "url": "https://www.youtube.com/watch?v=9U7J6WZ6gB4",
+              "duration": "8:30",
+              "difficulty": "beginner",
+              "source": "Duolingo",
+              "description": "Basic Spanish greetings and introductions"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
