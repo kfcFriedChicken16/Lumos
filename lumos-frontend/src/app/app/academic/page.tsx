@@ -393,7 +393,7 @@ export default function AcademicTestPage() {
     
     const backendUrl = process.env.NODE_ENV === 'development' 
       ? 'http://localhost:3001' 
-      : 'http://203.217.131.163:3001'
+      : 'https://lumos-p0t2.onrender.com'
     const response = await fetch(`${backendUrl}/api/academic${endpoint}`, {
       method,
       headers: {

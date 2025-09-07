@@ -118,7 +118,7 @@ export default function VoiceButton() {
       // Connect to WebSocket with better error handling
       const backendUrl = process.env.NODE_ENV === 'development' 
         ? 'ws://localhost:3001' 
-        : 'ws://203.217.131.163:3001'
+        : 'wss://lumos-p0t2.onrender.com'
       const ws = new WebSocket(backendUrl);
       wsRef.current = ws;
       

@@ -3,10 +3,10 @@ import { createClient } from '@supabase/supabase-js'
 // Supabase configuration - use environment variables
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-// Use localhost for development, public IP for production
+// Use localhost for development, Render backend for production
 const backendUrl = process.env.NODE_ENV === 'development' 
   ? 'http://localhost:3001' 
-  : 'http://203.217.131.163:3001'
+  : 'https://lumos-p0t2.onrender.com'
 
 // Create Supabase client with sessionStorage for session persistence
 export const supabase = createClient(supabaseUrl, supabaseKey, {
