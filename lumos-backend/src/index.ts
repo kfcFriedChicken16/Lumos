@@ -71,7 +71,13 @@ const activeWebSocketSessions = new Map<string, {
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: [
+    'http://localhost:3000', 
+    'http://localhost:3001',
+    'https://lumos-ecru.vercel.app',
+    'https://lumos-tutor.vercel.app',
+    'https://lumos-tutor-git-main-kfcfriedchicken16.vercel.app'
+  ],
   credentials: true
 }));
 app.use(cookieParser());
