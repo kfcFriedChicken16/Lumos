@@ -116,7 +116,10 @@ export default function VoiceButton() {
       console.log('✅ Microphone access granted');
       
       // Connect to WebSocket with better error handling
-      const ws = new WebSocket('ws://localhost:3001');
+      const backendUrl = process.env.NODE_ENV === 'development' 
+        ? 'ws://localhost:3001' 
+        : 'ws://203.217.131.163:3001'
+      const ws = new WebSocket(backendUrl);
       wsRef.current = ws;
       
       ws.onopen = () => {

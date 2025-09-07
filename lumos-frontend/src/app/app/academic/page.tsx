@@ -391,7 +391,10 @@ export default function AcademicTestPage() {
       throw new Error('No access token available - please log in again');
     }
     
-    const response = await fetch(`http://localhost:3001/api/academic${endpoint}`, {
+    const backendUrl = process.env.NODE_ENV === 'development' 
+      ? 'http://localhost:3001' 
+      : 'http://203.217.131.163:3001'
+    const response = await fetch(`${backendUrl}/api/academic${endpoint}`, {
       method,
       headers: {
         'Content-Type': 'application/json',

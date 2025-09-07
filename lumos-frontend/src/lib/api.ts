@@ -3,7 +3,10 @@ import { createClient } from '@supabase/supabase-js'
 // Supabase configuration - use environment variables
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-const backendUrl = 'http://localhost:3001'
+// Use localhost for development, public IP for production
+const backendUrl = process.env.NODE_ENV === 'development' 
+  ? 'http://localhost:3001' 
+  : 'http://203.217.131.163:3001'
 
 // Create Supabase client with sessionStorage for session persistence
 export const supabase = createClient(supabaseUrl, supabaseKey, {
